@@ -1,4 +1,5 @@
 body {
+    font-family: poppins, arial, helvetica neue, sans-serif;
     background-color: rgb(218, 82, 105);
     color: #636354;
 }
@@ -39,13 +40,95 @@ h1 {
 
 .select-subject {
     width: 500px;
+    height: 40px;
+    background-color: #FAFAFA;
+    color: #636354;
+    font-size: 19px;
 }
 
 .input-fname {
-    height: 40px;
+    height: 45px;
+    background-color: #FAFAFA;
+    border: 3px #F3F3F3 groove;
+    border-radius: 5px;
+    width: 260px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .input-lname {
-    height: 40px;
+    height: 45px;
+    background-color: #FAFAFA;
+    border: 3px #F3F3F3 groove;
+    border-radius: 5px;
+    width: 260px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
+.body-left {
+    margin-left: 50px;
+}
+
+.subject {
+    margin-left: 50px;
+}
+
+.input-birthday {
+    height: 45px;
+    background-color: #FAFAFA;
+    border: 3px #F3F3F3 groove;
+    border-radius: 5px;
+    width: 260px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input-email {
+    height: 45px;
+    background-color: #FAFAFA;
+    border: 3px #F3F3F3 groove;
+    border-radius: 5px;
+    width: 260px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input-phone-number {
+    height: 45px;
+    background-color: #FAFAFA;
+    border: 3px #F3F3F3 groove;
+    border-radius: 5px;
+    width: 260px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.male-female {
+    display: flex;
+    margin-top: 7px;
+}
+
+.select-subject {
+    border: 3px #F3F3F3 groove;
+    border-radius: 5px;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.male-female-1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 45px;
+}
+
+.male-female-2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 45px;
+}
+
+.male-female-2 {
+    margin-left: 40px;
+}
