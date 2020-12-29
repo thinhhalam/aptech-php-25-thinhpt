@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(218, 82, 105);
+    color: #636354;
+}
+
+h1 {
+    padding: 50px;
+    
+}
+
+.main {
+    border-radius: 10px;
+    height: 700px;
+    width: 700px;
+    background-color: white;
+    margin: 130px;
+}
+
+.name {
+    display: flex;
+    margin: 50px;
+}
+
+
+
+.submit {
+    margin: 50px;
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid #3868CD;
+    background-color: #3868CD;
+}
+
+.birthday-gender {
+    display: flex;
+    margin: 50px;
+}
+
+.male-female {
+    display: flex;
+}
+
+.email-phone {
+    margin: 50px;
+    display: flex;
+}
+
+.subject {
+    margin: 50px;
+}
+
+.select-subject {
+    width: 500px;
+}
+
+.input-fname {
+    height: 40px;
+}
+
+.lname {
+    height: 40px;
+}
+
+.input-birthday {
+    height: 40px;
+}
+
+.input-email {
+    height: 40px;
+}
+
+.select-subject {
+    height: 40px;
+}

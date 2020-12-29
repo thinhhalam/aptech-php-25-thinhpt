@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./index.css">
+    </head>
+
+    <body>
+        <div class="main">
+            <h1>Registration Form</h1>
+            <div class="name">
+                <div class="name-1">
+                    <div class="label-fname">
+                        <label>First name</label>
+                    </div>
+                    <input class="input-fname">
+                </div>
+                <div class="name-2">
+                    <div>
+                        <label class="lname">Last name</label>
+                    </div>
+                    <input class="lname">
+                </div>
+            </div>
+
+            <div class="birthday-gender">
+                <div class="birthday-gender-1">
+                    <div><label class="l-birthday">Birthday</label></div>
+                    <input class="input-birthday" type="datetime-local">
+                </div>
+                <div class="birthday-gender-2">
+                    <label class="birthday">Gender</label>
+                    <div class="male-female">
+                        <div>
+                            <input type="radio" class="male" name="gender" value="male">
+                            <label for="male">Male</label><br>
+                        </div>
+                        <div>
+                            <input type="radio" class="female" name="gender" value="female">
+                            <label for="female">Female</label><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="email-phone">
+                <div><label class="email">Email</label></div>
+                <div><input class="input-email"></div>
+
+                <div><label class="phone">Phone Number</label></div>
+                <div><input class="phone"></div>
+            </div>
+
+            <div class="subject">
+                <div><label>Subject</label></div>
+                <select class="select-subject">
+                    <option value="subject-1">Subject1</option>
+                    <option value="subject-2">Subject2</option>
+                    <option value="subject-3">Subject3</option>
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="Submit" class="submit">
+            </div>
+        </div>
+        
+    </body>
+</html>
