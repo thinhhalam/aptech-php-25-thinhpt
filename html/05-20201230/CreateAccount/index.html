@@ -5,22 +5,28 @@
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <form>
-            <h1>CREATE ACCOUNT</h1>
-            <input class="margin-input" type="text" placeholder="Your Name">
-            <br>
-            <input class="margin-input" type="text" placeholder="Your Email">
-            <br>
-            <input class="margin-input" type="password" placeholder="Password">
-            <br>
-            <input class="margin-input" type="password" placeholder="Repeat your password">
-            <br>
-            <input class="margin-input" type="checkbox">
-            <label>I agree all statements in Terms of service</label>
-            <br>
-            <button class="sign-up">SIGN UP</button>
-            <p>Have already an account ? Login here</p>
-        </form>
+        <div class="wrapper">
+            <form>
+                <div class="title-text">
+                    <div class="title create-account">CREATE ACCOUNT</div>
+                </div>
+                <input class="general your-name" type="text" placeholder="Your Name">
+                <br>
+                <input class="general your-email" type="text" placeholder="Your Email">
+                <br>
+                <input class="general password" type="password" placeholder="Password">
+                <br>
+                <input class="general repeat-your-password" type="password" placeholder="Repeat your password">
+                <br>
+                <div class="general">
+                    <input class="checkbox" type="checkbox">
+                    <label>I agree all statements in Terms of service</label>
+                </div>
+                <br>
+                <button class="sign-up">SIGN UP</button>
+                <p class="general" style="text-align: center;">Have already an account ? Login here</p>
+            </form>
+        </div>
 
     </body>
 </html>

@@ -1,7 +1,67 @@
-.margin-input {
-    margin-top: 10px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background: -webkit-linear-gradient(left, #45a2b2, #42facc);
+}
+
+.general {
+    margin-top: 20px;
+    height: 50px;
+    ;
 }
 
 .sign-up {
-    width: 200px;
+    width: 490px;
+    height: 50px;
+    color: #fff;
+    background: -webkit-linear-gradient(left, #45a2b2, #42facc);
+    border: none;
+    border-radius: 5px;
+
+}
+
+.wrapper {
+    background: #fff;
+    max-width: 900px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.your-name {
+    width: 490px;
+    height: 50px;
+    border: 1px solid lightblue
+}
+
+.your-email {
+    width: 490px;
+    height: 50px;
+    border: 1px solid lightblue
+}
+
+.password {
+    width: 490px;
+    height: 50px;
+    border: 1px solid lightblue
+}
+
+.repeat-your-password {
+    width: 490px;
+    height: 50px;
+    border: 1px solid lightblue
+}
+
+.wrapper .title-text .title {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
 }
