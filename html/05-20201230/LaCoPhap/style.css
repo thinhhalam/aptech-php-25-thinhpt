@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background: #000;
+}
+
+.blue {
+    background-color: blue;
+    height: 500px;
+}
+
+.white {
+    background-color: white;
+    height: 500px;
+}
+
+.red {
+    background-color: red;
+    height: 500px;
+}
